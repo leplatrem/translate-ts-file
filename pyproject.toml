@@ -1,0 +1,19 @@
+[project]
+authors = [
+    {name = "Mathieu Leplatre", email = "mathieu@leplat.re"},
+]
+license = {text = "MIT"}
+requires-python = "<4,>3.10"
+dependencies = [
+    "deep-translator>=1.11.4",
+    "typer>=0.16.0",
+]
+name = "translate-ts-file"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.8",
+]
